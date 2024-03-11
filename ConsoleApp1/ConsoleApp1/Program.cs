@@ -22,3 +22,18 @@ static double CalculateAverage(int[] array)
 
 int[] array = {1, 2, 3, 4, 5};
 Console.WriteLine(CalculateAverage(array));
+
+static int FindMax(int[] array)
+{
+    int max = array[0];
+    for(int i = 1; i < array.Length; i++)
+    {
+        if(array[i] > max)
+        {
+            max = array[i];
+        }
+    }
+    return max;
+}
+Console.WriteLine(FindMax(array));
+
