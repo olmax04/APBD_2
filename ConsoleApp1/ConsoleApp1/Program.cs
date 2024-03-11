@@ -16,6 +16,7 @@ static double CalculateAverage(int[] array)
     for(int i = 0; i < array.Length; i++)
     {
         sum += array[i];
+        Console.Write(i);
     }
     return (double)sum / array.Length;
 }
