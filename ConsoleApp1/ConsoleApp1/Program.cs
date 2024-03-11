@@ -12,12 +12,12 @@ for (int i = 0; i < 5; i++)
 
 static double CalculateAverage(int[] array)
 {
-    int sum = 0;
+    int summ = 0;
     for(int i = 0; i < array.Length; i++)
     {
         summ += array[i];
     }
-    return (double)sum / array.Length;
+    return (double)summ / array.Length;
 }
 
 int[] array = {1, 2, 3, 4, 5};
